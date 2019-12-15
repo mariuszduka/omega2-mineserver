@@ -8,9 +8,12 @@ Mineserver version: **0.2.0**
 Server still lacks features compared to original minecraft server.  
 Working with **1.8.9** client (protocol 47)
 
+Please note that the Omega2 minicomputer has got limited hardware resources that may affect the proper operation of the Minecraft server. The main purpose of making this package is to show that the Omega2 minicomputer can be used for numerous interesting applications that can prove to be extremely inspiring.  
+Simply put, a Minecraft game played on Omega2 is always great entertainment!
+
 ## About Mineserver
 
-**Mineserver** is completely open-source, and licensed under a permissive 3-clause BSD license, meaning you're free to use it for whatever you like, whenever you like, for as long as you like!
+**Mineserver** is completely open-sourced and licensed under a permissive 3 clause BSD Licence, meaning that you are free to use it whenever you like and for whatever you like!
 
 ## Features
 
@@ -21,14 +24,14 @@ Working with **1.8.9** client (protocol 47)
  * Normal mining/item spawning/item pickups
  * Basic physics for gravel and sand
  * Physics for water (currently revising this)
- * Flatland and terrain map generation (Also biomegen!)
+ * Flatland and terrain map generation (also biomegen!)
  * Working chests, furnaces & signs
  * User validation from minecraft.net
  * Protocol Encryption
 
 ## Requirements
 
-The package requires a minimum of 40 MB of flash storage.  
+The package requires a minimum of 40 MB flash memory storage.   
 See instructions: [Booting from External Storage](https://docs.onion.io/omega2-docs/boot-from-external-storage.html)
 
 Optional: [OLED Expansion](https://onion.io/store/oled-expansion/)
@@ -66,7 +69,7 @@ map.storage.nbt.directories += ("data/Omega2":3);
 
 ## OLED Expansion plugin support
 
-Set values ​​in the config file (`config.cfg`):
+Set values in the config file (`config.cfg`):
 ```
 omega2.oled.enable = true;
 system.plugins += ("omega2");
@@ -76,7 +79,7 @@ The current number of players will be shown on the display.
 
 ## Usage
 
-In the console execute the command:
+In the console, execute the command:
 ```
 cd /usr/bin/mineserver
 ./mineserver
